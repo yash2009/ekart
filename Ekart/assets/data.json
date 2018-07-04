@@ -1,0 +1,31 @@
+{
+  "electronics" : [
+{
+   "id":0,"name":"Apple iPhone 6","color":"Space Grey","display":"4.7 inch","price":23995,"rom":"32 GB","ram":"3 GB","camera_rear":"8 MegaPixel","camera_front":"4 MegaPixel","warranty":"Brand Warranty of 1 Year","bluetooth":"yes","images":[{"image1":"Iphone6Buy_1.jpg","image2":"Iphone6Buy_2.jpg","image3":"Iphone6Buy_3.jpg"}]
+},{
+   "id":1,"name":"Nokia 6.1","color":"Blue Gold","display":"5.5 inch","price":18999,"rom":"64 GB","ram":"4 GB","camera_rear":"16 MegaPixel","camera_front":"8 MegaPixel","warranty":"Brand Warranty of 1 Year","bluetooth":"yes","images":[{"image1":"Nokia_6.1_1.jpg","image2":"Nokia_6.1_2.jpg","image3":"Nokia_6.1_3.jpg"}]
+},{
+   "id":2,"name":"One Plus 6","color":"Mirror Black","display":"6.28 inch","price":34999,"rom":"32 GB","ram":"4 GB","camera_rear":"20 MegaPixel","camera_front":"16 MegaPixel","warranty":"Brand Warranty of 1 Year","bluetooth":"yes","images":[{"image1":"one_plus.jpg","image2":"one_plus1.jpg","image3":"one_plus2.jpg"}]
+},{
+   "id":3,"name":"Samsung Galaxy A8+","color":"Black","display":"6 inch","price":27990,"rom":"64 GB","ram":"6 GB","camera_rear":"16 MegaPixel","camera_front":"8 MegaPixel","warranty":"Brand Warranty of 1 Year","bluetooth":"yes","images":[{"image1":"a8+_1.jpg","image2":"a8+_2.jpg","image3":"a8+_3.jpg"}]
+}],"fashion" : [{
+  "id":0,"name":"Men's Solo Regular Fit Polo","color":"Blue","material":"Cotton","fit":"Regular Fit ","made":"UCB","wash":"Machine Wash","price":995,"images":[{"image1":"tshirt_benetton.jpg","image2":"tshirt_benetton_1.jpg","image3":"tshirt_benetton_2.jpg"}]
+},{
+"id":1,"name":"Men's Stripped Polo","color":"Black","material":"Cotton","fit":"Regular Fit ","made":"US Polo","wash":"Machine Wash","price":959,"images":[{"image1":"US.jpg","image2":"US1.jpg","image3":"US2.jpg"}]
+},{
+"id":2,"name":"Levi's Solid Regular Men's Polo","color":"Purple","material":"Cotton","fit":"Regular Fit ","made":"Levi's","wash":"Machine Wash","price":1199,"images":[{"image1":"levis.jpg","image2":"levis2.jpg","image3":"levis3.jpg"}]
+},{
+"id":3,"name":"Peter England Shirt","color":"White","material":"Cotton","fit":"Regular Fit ","made":"Peter England","wash":"Machine Wash","price":2799,"images":[{"image1":"shirt.jpg","image2":"shirt1.jpg","image3":"shirt2.jpg"}]
+}],"sports":[{
+"id":0,"name":"Silver's SB 503 Badminton Racquet","color":"Black","weight":"Light Weight","price":849,"images":[{"image1":"badminton1.jpg","image2":"badminton2.jpg","image3":"badminton3.jpg"}]
+
+},{"id":1,"name":"SS Heritage Cricket Helmet","color":"Black","weight":"Light Weight","price":919,"images":[{"image1":"helmet_ss.jpg"}]
+
+},{"id":2,"name":"SG Optipro Cricket Helmet","color":"Black","weight":"Light Weight","price":990,"images":[{"image1":"helmet.jpg"}]
+
+}],"cycles":[{
+"id":0,"name":"Hercules Roadeo Hank 24T 21 Gear Cycle ","color":"Neon Orange","weight":"Light Weight","price":9995,"gear":"Geared","images":[{"image1":"Hero.jpg","image2":"Hero1.jpg","image3":"Hero2.jpg"}]
+},{
+"id":1,"name":"Avon Bounce Cycle for Boys","color":"Florescent Red/Black","weight":"Light Weight","price":4990,"gear":"Geared","images":[{"image1":"Avon.jpg","image2":"Avon1.jpg","image3":"Avon2.jpg"}]
+
+}]}
