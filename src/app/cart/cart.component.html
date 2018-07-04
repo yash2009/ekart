@@ -1,0 +1,59 @@
+<div class="col-lg-10" style="margin-top: 70px">
+    
+  <h3>Shopping Cart</h3>
+  <h2 class="prodLine"></h2>
+
+  <table class="table table-responsive">
+    <thead>
+      <tr>
+         <th></th> 
+        <th id="productDesc">Product</th>
+        <th></th>
+        <th id="Qty">Quantity</th>
+        
+        <th id="amountTable" id="calAmount">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- track by $index -->
+      <tr *ngFor="let product of products;let index=index;">
+
+        <td>
+          <img src="./assets/images/{{product.image}}" height="100" width="60">
+        </td>
+        
+          <td>{{product.name}}
+
+            
+          </td>
+          <td><a (click)=delete(index)>Remove</a></td>
+          <td>
+            <select [(ngModel)]=product.qty (change)=quantity($event.target.value,index)>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </td>
+          <td>{{product.price*product.qty | inr}}
+          </td>
+      </tr>
+
+    </tbody>
+  </table>
+  <div class="col-lg-5 col-lg-offset-6">
+    <h3>
+      <strong>Total Amount:</strong>{{tAmt | inr}}</h3>
+
+
+  </div>
+
+
+
+</div>

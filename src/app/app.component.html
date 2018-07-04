@@ -1,0 +1,73 @@
+<div class="container-fluid" >
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+          <a routerLink="/home"> <img class="navLogo" src="../../assets/images/logo.png" alt="image not found" width="100" height="30" /></a>
+      </div>
+      <div class="nav navbar-nav navbar-right">
+          <a routerLink="/cart"><img src="../../assets/images/cart.svg" alt="image not found" width="35" height="35" /><label class="navLabel">Cart</label></a>
+      </div>
+  </nav>
+</div>
+<div class="banner" style="margin-top: 48px;">
+ 
+    <carousel>
+            <slide>
+              <img src="../../assets/images/banner.jpg" alt="first slide" class="img-responsive">
+              
+            </slide>
+            <slide>
+              <img src="../../assets/images/banner1.jpg" alt="second slide" class="img-responsive" >
+              
+            </slide>
+            </carousel>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-12 col-lg-2">
+              <nav class="navbar navbar-default sideNav">
+                  <a routerLink="/electronics">Electronics</a>
+                  <a routerLink="/fashion">Fashion</a>
+                  <a routerLink="/cycles">Cycles</a>
+                  <a routerLink="/sports">Sports</a>
+              </nav>
+          </div>
+          <div class="col-lg-10" >
+              <router-outlet></router-outlet>
+          </div>
+          <footer class="bg-danger col-lg-12">
+              <div class="col-lg-2 col-sm-2 text-center col-lg-offset-1 col-sm-offset-1">
+                  <h5><u>Categories</u></h5>
+                  <ul class="list-unstyled footerCategories">
+                      <li><a href="">Electronics</a></li>
+                      <li><a href="">Fashion</a></li>
+                      <li><a href="">Sports</a></li>
+                      <li><a href="">Cycles</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-sm-2 col-lg-offset-1 col-sm-offset-1 text-center">
+                  <h5><u>Useful Links</u></h5>
+                  <ul class="list-unstyled footerCategories">
+                      <li><a href="">Contact Us</a></li>
+                      <li><a href="">Track Orders</a></li>
+                      <li><a href="">Cancellations</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-sm-2 col-lg-offset-1 col-sm-offset-1 text-center">
+                  <h5><u>Social-Networks</u></h5>
+                  <h6>(Let's get in touch)</h6>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+              </div>
+              <div class="col-lg-2 col-sm-2 col-lg-offset-1 col-sm-offset-1">
+                  <h5><u>Features</u></h5>
+                  <ul class="list-unstyled footerCategories">
+                      <li><a href="">Free Replacement!!!</a></li>
+                      <li><a href="">Get <strong>Free</strong> Home Delivery</a></li>
+                  </ul>
+              </div>
+          </footer>
+      </div>
+  </div>
+</div> 
+

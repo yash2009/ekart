@@ -1,0 +1,56 @@
+
+     <div >
+      <div class="detailProd col-lg-5 col-xs-12 text-center" style="margin-top: 60px;">
+          <div style="margin-top: 10px">
+              <div class="col-lg-3 col-xs-6" style="margin-top: 10px">
+                  <img src="./assets/images/{{data.cycles[id].images[0].image1}}" alt="Iphone6" width="50" height="80" class="detailProdSmall imageSmallSize" id="imageFashion" ng-click=imageChange1()>
+                  <br/>
+                  <img src="./assets/images/{{data.cycles[id].images[0].image2}}" alt="Iphone6" width="50" height="80" class="detailProdSmall imageSmallSize" id="imageFashion1" ng-click=imageChange2()>
+                  <br>
+                  <img src="./assets/images/{{data.cycles[id].images[0].image3}}" alt="Iphone6" width="50" height="80" class="detailProdSmall imageSmallSize" id="imageFashion2" ng-click=imageChange3()>
+              </div>
+              <div class="col-lg-2 col-xs-6">
+                  <img src="./assets/images/{{data.cycles[id].images[0].image1}}" alt="Iphone6" width="203" height="416" id="imageFashionMain">
+              </div>
+          </div>
+      </div>
+       <div class="col-lg-7 col-xs-12" style="margin-top: 60px;">
+          <div class="col-lg-offset-1 col-xs-offset-0">
+              <h4><b id="prodNameFashion"></b>{{data.cycles[id].name}} ({{data.cycles[id].color}})</h4>
+              <h5><b>Price: &#8377; </b><span id="prodPriceFashion">{{data.cycles[id].price}}</span></h5>
+              <h2 class="prodLine"></h2>
+            
+              <div>
+                  <div class="col-lg-4 col-lg-offset-3 col-xs-6">
+                      <button class="btnAddToCart" (click)="addCart()"><strong>Add To Cart</strong></button>
+                  </div>
+                  <div class="col-lg-4 col-xs-6">
+                      <button class="btnBuyNow"><strong>Buy Now</strong></button>
+                  </div>
+              </div>
+              <div class="panel panel-info" style="margin-top: 90px;">
+                  <div class="panel-heading">Product Details</div>
+                  <div class="panel-body panelLineHeight">
+                      <div class="col-lg-3 col-xs-6 col-xs-offset-1" id="txtSpecFashion">
+                          <table>
+                              <tr>Color</tr><br>
+                              <tr>Weight</tr><br>
+                              <tr>Gear</tr><br>
+                             
+                          </table>
+                      </div>
+                      <div class="col-lg-5 col-xs-5" id="txtSpecDetailFashion">
+                          <table>
+                              <tr>{{data.cycles[id].color}}</tr><br>
+                              <tr>{{data.cycles[id].weight}}</tr><br>
+                              <tr>{{data.cycles[id].gear}}</tr><br>
+                              
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+ 
+

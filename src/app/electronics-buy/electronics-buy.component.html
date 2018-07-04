@@ -1,0 +1,83 @@
+<div class="detailProd col-lg-5 col-xs-12 text-center" style="margin-top: 60px;">
+  <div style="margin-top: 10px">
+      <div class="col-lg-3 col-xs-6" style="margin-top: 10px">
+          <img src="./assets/images/{{data.electronics[id].images[0].image1}}" alt="Iphone6" width="50" height="80" class="detailProdSmall imageSmallSize" id="imageIphone" ng-click=imageChange1()> 
+          <br/>
+          <img src="./assets/images/{{data.electronics[id].images[0].image2}}" alt="Iphone6" width="50" height="80" class="detailProdSmall imageSmallSize" id="imageIphone1" ng-click=imageChange2()>
+          <br>
+          <img src="./assets/images/{{data.electronics[id].images[0].image3}}" alt="Iphone6" width="50" height="80" class="detailProdSmall imageSmallSize" id="imageIphone2" ng-click=imageChange3()>
+      </div>
+      <div class="col-lg-2 col-xs-6">
+          <img src="./assets/images/{{data.electronics[id].images[0].image1}}" alt="Iphone6" width="203" height="416" id="imageIphoneMain">
+      </div>
+  </div>
+</div>
+<div class="col-lg-7 col-xs-12" style="margin-top: 60px;">
+  
+      <h4><b>{{data.electronics[id].name}} ({{data.electronics[id].color}} , {{data.electronics[id].rom}})</b></h4>
+      <h5><b>Price: &#8377; </b><span>{{data.electronics[id].price}}</span></h5>
+      <h2 class="prodLine"></h2>
+      <div>
+          <p class="txtProdHead">Highlights</p>
+          <ul>
+              <li>{{data.electronics[id].rom}} ROM</li>
+              <li>{{data.electronics[id].ram}} RAM</li>
+              <li>{{data.electronics[id].camera_rear}} Rear Camera</li>
+              <li>{{data.electronics[id].camera_front}} Front Camera</li>
+              <li>{{data.electronics[id].display}} Display</li>
+          </ul>
+          <h2 class="prodLine"></h2>
+      </div>
+      <div>
+          <div class="col-lg-4 col-lg-offset-3 col-xs-6">
+              <button class="btnAddToCart" (click)="addCart()" ><strong>Add To Cart</strong></button>
+          </div>
+          <div class="col-lg-4 col-xs-6">
+              <button class="btnBuyNow"><strong>Buy Now</strong></button>
+          </div>
+      </div>
+      <div class="panel panel-info" style="margin-top: 90px;">
+          <div class="panel-heading">Specifications</div>
+          <div class="panel-body panelLineHeight">
+              <div class="col-lg-3 col-xs-6 col-xs-offset-1">
+                  <table>
+                      <tr>Color</tr>
+                      <br>
+                      <tr>Display</tr>
+                      <br>
+                      <tr>ROM</tr>
+                      <br>
+                      <tr>RAM</tr>
+                      <br>
+                      <tr>Rear Camera</tr>
+                      <br>
+                      <tr>Front Camera</tr>
+                      <br>
+                      <tr>Warranty</tr>
+                      <br>
+                      <tr>Bluetooth</tr>
+                  </table>
+              </div>
+              <div class="col-lg-5 col-xs-5" id="txtSpecDetail">
+                  
+                  <table>
+                      <tr>{{data.electronics[id].color}}</tr>
+                      <br>
+                      <tr>{{data.electronics[id].display}}</tr>
+                      <br>
+                      <tr>{{data.electronics[id].rom}}</tr>
+                      <br>
+                      <tr>{{data.electronics[id].ram}}</tr>
+                      <br>
+                      <tr>{{data.electronics[id].camera_rear}}</tr>
+                      <br>
+                      <tr>{{data.electronics[id].camera_front}}</tr>
+                      <br>
+                      <tr>{{data.electronics[id].warranty}}</tr>
+                      <br>
+                      <tr>{{data.electronics[id].bluetooth}}</tr>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </div>

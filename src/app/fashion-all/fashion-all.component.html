@@ -1,0 +1,9 @@
+<h3>Fashion</h3>
+                <div class="col-lg-10 col-lg-offset-1" style="margin-top: 30px">
+                    <div class="col-lg-3 col-lg-offset-1" *ngFor="let product of products; let i = index;">
+                       <a [routerLink]="['/fashion-description', i]"> <img src="./assets/images/{{product.images[0].image1}}" alt="Iphone6" width="150" height="216"></a>
+                        <h4><b>{{product.name}}({{product.color}})</b></h4>
+                        <h5><b>Price: &#8377; </b><span>{{product.price | inr}}</span></h5>
+                    </div>      
+                              
+                </div>
